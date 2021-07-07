@@ -1,0 +1,21 @@
+.closeDiv{
+    display: none;
+}
+.closeDiv:hover{
+    display: inline-block;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.hide{
+   display: none;
+}
+
+.mybtnclass:hover  .hide{
+    display: inline-block;
+    background-color: red;
+    padding: 2px 6px;
+    color: white;
+    cursor: pointer;
+}
+
